@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess Number Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>숫자 맞추기 게임</h1>
-    <div id="result-area">결과는???</div>
-    <input type="number" id="number-input" placeholder="1부터 100까지 입력하세요" style="width: 200px"/>
-    <button id="play-button">입력</button>
+    <h1>설거지게임</h1>
+    <h2>죽음의 업&다운</h2>
+    <img src = "https://i.namu.wiki/i/HPX6T8SGrWLsUfoUsK11JyM6aloLVTYHwJQtiCH7JLzpAu0F_uuiqj8UPUC6SQYJVaIZxcunov_Lux5Ng3lwBkyW0kL0hjAi2f-l5KYk5wN6JV236lKxL6_PWBMn2zwBeoCaOpcvxu1dxl5d8zA1PQ.webp" class="main-img">
+
+    <div id="result-area" class="result font">결과는???</div>
+    <div id = "chance-area" class="result font">남은 찬스 : 5번</div>
+    <input type="number" id="number-input" class = "input result" placeholder="1부터 100까지 입력하세요" style="width: 200px"/>
+    <button class="button-style" id="play-button">입력</button>
+    <button class="button-style2" id="reset-area">초기화</button>
     <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

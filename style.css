@@ -1,0 +1,46 @@
+body {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.font{
+font-size: 25pt;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.main-img{
+  width: 20vw;
+  height: 30vh
+}
+
+.button-style {
+  height: 60px;
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 50px;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.button-style2 {
+  height: 60px;
+  width: 130px;
+  margin-top: 5px;
+  border-radius: 50px;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.input{
+    height: 50px;
+    font-size: 10pt;
+}
+
+.result{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
